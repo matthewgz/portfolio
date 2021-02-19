@@ -56,7 +56,7 @@ export const state = () => ({
     },
   ],
   email: 'matthew.rosell.felix@gmail.com',
-  phone: '+051950004308',
+  phone: '+51950004308',
   linkedin:
     'https://www.linkedin.com/in/matthew-dominick-rosell-felix-a0380219b',
   github: 'https://github.com/matthewgz?tab=repositories',
