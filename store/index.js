@@ -2,7 +2,7 @@ export const state = () => ({
   title: 'Soy Matthew',
   subtitle: '¡Hola mundo!',
   description:
-    'Full Stack Developer que le apasiona implementar diseños que inspiran y tambien aceptar los retos del mundo del Backend.',
+    'Full Stack Developer que le apasiona implementar diseños que inspiran y tambien aceptar los desafíos del mundo Backend.',
   heroImageName: 'Hero.png',
   projects: [
     {
