@@ -33,7 +33,11 @@ export default {
   modules: [],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {},
+  build: {
+    extend(config, { isClient, loaders: { imgUrl } }) {
+      imgUrl.limit = 70000 // 70kbs
+    },
+  },
 
   generate: {
     dir: 'public',
