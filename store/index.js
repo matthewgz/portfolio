@@ -47,6 +47,16 @@ export const state = () => ({
     },
     {
       id: 5,
+      name: 'Rooms',
+      description:
+        'Aplicación ficticia de renta de cuartos como Airbnb. Utilizando Firebase como backend, implementa registro de usuarios, permisos, inicio de sesión, etc.',
+      labels: ['Vuejs', 'Firebase', 'Heroku'],
+      image: 'rooms.png',
+      url: 'https://rooms-web.herokuapp.com/',
+      github: 'https://github.com/matthewgz/rooms',
+    },
+    {
+      id: 6,
       name: 'Platzi Video',
       description:
         'Aplicación realizado con react native, se muestra y reproducen videos obtenidos de API free.',
