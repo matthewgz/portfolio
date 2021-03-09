@@ -1,16 +1,18 @@
 <template>
-  <main>
+  <fragment>
     <px-header />
     <Nuxt />
-  </main>
+    <px-footer />
+  </fragment>
 </template>
 
 <script>
 import PxHeader from '@/components/PxHeader'
+import PxFooter from '@/components/PxFooter.vue'
 
 export default {
   name: 'Default',
-  components: { PxHeader },
+  components: { PxHeader, PxFooter },
 }
 </script>
 

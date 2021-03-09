@@ -1,5 +1,5 @@
 <template>
-  <div class="hero">
+  <section class="hero">
     <img
       class="hero-img"
       :src="require(`~/assets/image/${heroImageName}`)"
@@ -13,7 +13,7 @@
       </p>
       <px-social-media />
     </div>
-  </div>
+  </section>
 </template>
 
 <script>

@@ -3,7 +3,7 @@ export default {
   head: {
     title: 'Matthew Rosell Felix',
     htmlAttrs: {
-      lang: 'es',
+      lang: 'es-ES',
     },
     meta: [
       { charset: 'utf-8' },
@@ -22,7 +22,7 @@ export default {
   css: [],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [],
+  plugins: ['@/plugins/vue-fragment'],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,

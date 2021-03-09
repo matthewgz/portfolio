@@ -1,18 +1,16 @@
 <template>
-  <div class="container">
+  <main class="container">
     <px-hero />
     <px-projects />
-    <px-footer />
-  </div>
+  </main>
 </template>
 
 <script>
 import PxHero from '@/components/PxHero'
 import PxProjects from '@/components/PxProjects.vue'
-import PxFooter from '@/components/PxFooter.vue'
 
 export default {
-  components: { PxHero, PxProjects, PxFooter },
+  components: { PxHero, PxProjects },
 }
 </script>
 
