@@ -3,7 +3,8 @@ export default {
   head: {
     title: 'Matthew Rosell Felix',
     htmlAttrs: {
-      lang: 'es-ES',
+      lang: 'es',
+      amp: true,
     },
     meta: [
       { charset: 'utf-8' },
@@ -13,6 +14,12 @@ export default {
         name: 'description',
         content:
           'Full Stack Developer que le apasiona implementar diseños que inspiran y también aceptar los desafíos del mundo Backend.',
+      },
+      {
+        hid: 'keywords',
+        name: 'keywords',
+        content:
+          'vuejs, nuxt, javascript, development, software, frontend, backend, Full Stack',
       },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
