@@ -1,9 +1,9 @@
 <template>
-  <fragment>
+  <div class="main">
     <px-header />
     <Nuxt />
     <px-footer />
-  </fragment>
+  </div>
 </template>
 
 <script>
@@ -60,7 +60,7 @@ a {
   text-decoration: none;
 }
 
-main {
+.main {
   max-width: 1200px;
   margin: 0 auto;
 }
