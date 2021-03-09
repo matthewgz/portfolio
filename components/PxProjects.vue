@@ -1,10 +1,10 @@
 <template>
-  <div class="projects">
+  <section class="projects">
     <p>
       Durante mi carrera como Frontend, he tenido el privilegio de trabajar en
       diferentes proyectos
     </p>
-    <h6>Aquí hay algunos que me gustaría compartir</h6>
+    <span>Aquí hay algunos que me gustaría compartir</span>
     <img
       class="arrow-svg"
       src="~/assets/svg/arrow.svg"
@@ -20,7 +20,7 @@
       :url="project.url"
       :github="project.github"
     />
-  </div>
+  </section>
 </template>
 
 <script>
@@ -39,24 +39,26 @@ export default {
 
 <style scoped>
 .projects {
+  align-items: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 
 .projects p {
   font-size: 24px;
+  font-weight: normal;
   line-height: 28px;
-  text-align: center;
   margin-bottom: 24px;
   max-width: 789px;
+  text-align: center;
 }
 
-.projects h6 {
+.projects span {
   font-size: 18px;
+  font-weight: bold;
   line-height: 21px;
-  text-align: center;
   margin-bottom: 24px;
+  text-align: center;
 }
 
 .arrow-svg {
@@ -71,7 +73,7 @@ export default {
     line-height: 42px;
   }
 
-  .projects h6 {
+  .projects span {
     font-size: 24px;
     line-height: 28px;
   }

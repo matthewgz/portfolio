@@ -75,7 +75,8 @@ export default {
   width: 100%;
 }
 
-.project p {
+.description {
+  font-weight: normal;
   margin-bottom: 16px;
 }
 
