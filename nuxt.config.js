@@ -1,7 +1,11 @@
+const title = 'Matthew Rosell Felix'
+const description =
+  'Full Stack Developer que le apasiona implementar diseños que inspiran y también aceptar los desafíos del mundo Backend.'
+
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Matthew Rosell Felix',
+    title,
     htmlAttrs: {
       lang: 'es',
       amp: true,
@@ -12,14 +16,23 @@ export default {
       {
         hid: 'description',
         name: 'description',
-        content:
-          'Full Stack Developer que le apasiona implementar diseños que inspiran y también aceptar los desafíos del mundo Backend.',
+        content: description,
       },
       {
         hid: 'keywords',
         name: 'keywords',
         content:
           'vuejs, nuxt, javascript, development, software, frontend, backend, Full Stack',
+      },
+      {
+        hid: 'og:title',
+        property: 'og:title',
+        content: title,
+      },
+      {
+        hid: 'og:description',
+        property: 'og:description',
+        content: description,
       },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
