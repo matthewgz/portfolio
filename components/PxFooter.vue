@@ -2,7 +2,7 @@
   <footer class="footer">
     <px-social-media />
     <p>
-      Hecho por Matthewdrf. Copyright {{ year }} - Todos los derechos
+      Hecho por @matthewdrf. Copyright {{ year }} - Todos los derechos
       reservados.
     </p>
   </footer>

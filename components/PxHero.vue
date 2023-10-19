@@ -3,7 +3,7 @@
     <img
       class="hero-img"
       :src="require(`~/assets/image/${heroImageName}`)"
-      alt="Hero"
+      alt="Foto de Matthew Rosell Felix"
     />
     <div>
       <h2 class="subtitle">{{ subtitle }}</h2>
