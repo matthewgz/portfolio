@@ -1,6 +1,6 @@
 const title = 'Matthew Rosell Felix'
 const description =
-  'Full Stack Developer que le apasiona implementar diseños que inspiran y también aceptar los desafíos del mundo Backend.'
+  'Soy un entusiasta Full Stack Developer con una pasión por dar vida a diseños inspiradores y enfrentar desafíos en el mundo del Backend. ¡Construyamos juntos el futuro digital!'
 
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
@@ -51,7 +51,6 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/eslint
     '@nuxtjs/eslint-module',
-    '@nuxtjs/device',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
