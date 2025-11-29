@@ -5,13 +5,9 @@
   </main>
 </template>
 
-<script>
-import PxHero from '@/components/PxHero'
-import PxProjects from '@/components/PxProjects.vue'
-
-export default {
-  components: { PxHero, PxProjects },
-}
+<script setup>
+import PxHero from "@/components/PxHero.vue";
+import PxProjects from "@/components/PxProjects.vue";
 </script>
 
 <style scoped>

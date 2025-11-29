@@ -2,9 +2,9 @@
   <section class="hero">
     <img
       class="hero-img"
-      :src="require(`~/assets/image/${heroImageName}`)"
+      :src="`/image/${heroImageName}`"
       alt="Foto de Matthew Rosell Felix"
-    />
+    >
     <div>
       <h2 class="subtitle">{{ subtitle }}</h2>
       <h1 class="title">{{ title }}</h1>
@@ -16,27 +16,14 @@
   </section>
 </template>
 
-<script>
-import PxSocialMedia from './PxSocialMedia.vue'
+<script setup>
+import PxSocialMedia from "./PxSocialMedia.vue";
 
-export default {
-  name: 'PxHero',
-  components: { PxSocialMedia },
-  computed: {
-    title() {
-      return this.$store.getters.getTitle
-    },
-    subtitle() {
-      return this.$store.getters.getSubtitle
-    },
-    description() {
-      return this.$store.getters.getDescription
-    },
-    heroImageName() {
-      return this.$store.getters.getHeroImageName
-    },
-  },
-}
+const portfolio = usePortfolio();
+const title = computed(() => portfolio.value.title);
+const subtitle = computed(() => portfolio.value.subtitle);
+const description = computed(() => portfolio.value.description);
+const heroImageName = computed(() => portfolio.value.heroImageName);
 </script>
 
 <style scoped>

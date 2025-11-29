@@ -8,20 +8,9 @@
   </footer>
 </template>
 
-<script>
-import PxSocialMedia from './PxSocialMedia.vue'
-
-export default {
-  name: 'PxFooter',
-  components: { PxSocialMedia },
-  computed: {
-    year() {
-      const today = new Date()
-
-      return today.getFullYear()
-    },
-  },
-}
+<script setup>
+import PxSocialMedia from "./PxSocialMedia.vue";
+const year = computed(() => new Date().getFullYear());
 </script>
 
 <style scoped>

@@ -5,11 +5,7 @@
       diferentes proyectos
     </p>
     <span>Aquí hay algunos que me gustaría compartir</span>
-    <img
-      class="arrow-svg"
-      src="~/assets/svg/arrow.svg"
-      alt="Flecha hacia abajo"
-    />
+    <img class="arrow-svg" src="/svg/arrow.svg" alt="Flecha hacia abajo" >
     <px-project
       v-for="project in projects"
       :key="project.id"
@@ -23,18 +19,11 @@
   </section>
 </template>
 
-<script>
-import PxProject from './PxProject.vue'
+<script setup>
+import PxProject from "./PxProject.vue";
 
-export default {
-  name: 'PxProjects',
-  components: { PxProject },
-  computed: {
-    projects() {
-      return this.$store.getters.getProjects
-    },
-  },
-}
+const portfolio = usePortfolio();
+const projects = computed(() => portfolio.value.projects);
 </script>
 
 <style scoped>

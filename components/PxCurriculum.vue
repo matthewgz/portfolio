@@ -5,11 +5,7 @@
   </a>
 </template>
 
-<script>
-export default {
-  name: 'PxCurriculum',
-}
-</script>
+<script setup></script>
 
 <style scoped>
 .curriculum {

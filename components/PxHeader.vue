@@ -1,16 +1,14 @@
 <template>
   <header>
     <div class="header">
-      <img src="~/assets/image/Logo.png" alt="Logo" />
+      <img src="/image/Logo.png" alt="Logo" >
       <px-curriculum />
     </div>
   </header>
 </template>
 
-<script>
-import PxCurriculum from './PxCurriculum'
-
-export default { name: 'PxHeader', components: { PxCurriculum } }
+<script setup>
+import PxCurriculum from "./PxCurriculum.vue";
 </script>
 
 <style scoped>
