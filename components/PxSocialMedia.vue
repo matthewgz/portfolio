@@ -1,16 +1,26 @@
 <template>
   <div>
-    <a :href="linkedin" target="_blank" rel="noopener noreferrer">
-      <img class="social-img" src="/svg/linkedin.svg" alt="Logo de Linkedin" >
+    <a
+      :href="linkedin"
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="Visitar mi perfil de LinkedIn"
+    >
+      <img class="social-img" src="/svg/linkedin.svg" alt="LinkedIn" />
     </a>
-    <a :href="github" target="_blank" rel="noopener noreferrer">
-      <img class="social-img" src="/svg/github.svg" alt="Logo de Github" >
+    <a
+      :href="github"
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="Visitar mi perfil de GitHub"
+    >
+      <img class="social-img" src="/svg/github.svg" alt="GitHub" />
     </a>
-    <a :href="`mailto:${email}`">
-      <img class="social-img" src="/svg/email.svg" alt="Logo de Email" >
+    <a :href="`mailto:${email}`" aria-label="Enviarme un correo electrónico">
+      <img class="social-img" src="/svg/email.svg" alt="Email" />
     </a>
-    <a :href="`tel:${phone}`">
-      <img class="social-img" src="/svg/phone.svg" alt="Logo de Phone" >
+    <a :href="`tel:${phone}`" aria-label="Llamarme por teléfono">
+      <img class="social-img" src="/svg/phone.svg" alt="Teléfono" />
     </a>
   </div>
 </template>

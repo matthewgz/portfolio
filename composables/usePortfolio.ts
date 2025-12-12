@@ -5,24 +5,24 @@ export const usePortfolio = () => {
         title: 'Soy Matthew',
         subtitle: '¡Hola mundo!',
         description:
-            'Soy un entusiasta Full Stack Developer con una pasión por dar vida a diseños inspiradores y enfrentar desafíos en el mundo del Backend. ¡Construyamos juntos el futuro digital!',
+            'Full Stack Developer especializado en crear experiencias web únicas. Me apasiona transformar diseños en realidad y resolver desafíos complejos en el Backend. ¡Trabajemos juntos para construir el futuro digital!',
         heroImageName: 'Matthew_Rosell_Felix.png',
         projects: [
             {
                 id: 1,
                 name: 'Earthquake',
                 description:
-                    'Es una web donde se muestra información y localización de los sismos ocurridos.',
+                    'Plataforma web para visualizar información y localización de sismos en tiempo real.',
                 labels: ['Nextjs', 'Styled Components', 'JavaScript'],
                 image: 'earthquake.png',
-                url: 'http://earthquake-nextjs.vercel.app',
+                url: 'https://earthquake.matthewdrf.com',
                 github: 'https://github.com/matthewgz/earthquake-nextjs',
             },
             {
                 id: 2,
                 name: 'Pugstagram',
                 description:
-                    'Es una copia de instagram pero para Pugs,fue realizado con fines educativos.',
+                    'Clon de Instagram temático para Pugs, desarrollado con fines educativos para explorar Svelte.',
                 labels: ['Svelte', 'JavaScript', 'CSS'],
                 image: 'pugstagram.png',
                 url: 'https://svelt-pugstagram.netlify.app',
@@ -32,7 +32,7 @@ export const usePortfolio = () => {
                 id: 3,
                 name: 'Matthew',
                 description:
-                    'Es la página web de mi portafolio, donde muestro algunos mis proyectos.',
+                    'Portafolio personal desarrollado con Nuxt.js para exhibir mis proyectos y habilidades como desarrollador.',
                 labels: ['Nuxtjs', 'JavaScript', 'CSS'],
                 image: 'matthew.png',
                 url: 'https://matthewdrf.com',
@@ -42,7 +42,7 @@ export const usePortfolio = () => {
                 id: 4,
                 name: 'VueExchange',
                 description:
-                    'Plataforma que muestra todas las criptomonedas y sus valores en tiempo real.',
+                    'Plataforma de intercambio de criptomonedas que muestra valores en tiempo real.',
                 labels: ['Vuejs', 'JavaScript', 'CSS'],
                 image: 'vue-exchange.png',
                 url: 'https://vue-exchange-ptz.netlify.app/',
@@ -52,7 +52,7 @@ export const usePortfolio = () => {
                 id: 5,
                 name: 'Rooms',
                 description:
-                    'Aplicación ficticia de renta de cuartos como Airbnb. Utilizando Firebase como backend, implementa registro de usuarios, permisos, inicio de sesión, etc.',
+                    'Aplicación tipo Airbnb para renta de cuartos. Backend en Firebase con autenticación y gestión de usuarios.',
                 labels: ['Vuejs', 'Firebase', 'Heroku'],
                 image: 'rooms.png',
                 url: 'https://rooms-web.herokuapp.com/',
@@ -62,7 +62,7 @@ export const usePortfolio = () => {
                 id: 6,
                 name: 'Platzi Video',
                 description:
-                    'Aplicación realizado con react native, se muestra y reproducen videos obtenidos de API free.',
+                    'Aplicación móvil en React Native para reproducción de videos, consumiendo una API externa.',
                 labels: ['React Native', 'JavaScript'],
                 image: 'platzi-video.png',
                 github: 'https://github.com/matthewgz/PlatziVideo',

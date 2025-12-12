@@ -3,10 +3,10 @@
     <img
       class="project-image"
       :src="`/image/projects/${image}`"
-      alt="Imagen del proyecto"
-    >
+      :alt="`Imagen del proyecto ${name}`"
+    />
     <div>
-      <h2 class="subtitle">{{ name }}</h2>
+      <h3 class="subtitle">{{ name }}</h3>
       <p class="description">
         {{ description }}
       </p>
@@ -21,7 +21,7 @@
         </a>
         <a :href="github" target="_blank" rel="noopener noreferrer">
           <div class="button secundary">
-            <img class="svg" src="/svg/github.svg" alt="Logo de Github" >
+            <img class="svg" src="/svg/github.svg" alt="Logo de Github" />
             VER CÓDIGO
           </div>
         </a>

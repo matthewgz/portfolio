@@ -4,7 +4,8 @@
       class="hero-img"
       :src="`/image/${heroImageName}`"
       alt="Foto de Matthew Rosell Felix"
-    >
+      fetchpriority="high"
+    />
     <div>
       <h2 class="subtitle">{{ subtitle }}</h2>
       <h1 class="title">{{ title }}</h1>
@@ -48,9 +49,9 @@ const heroImageName = computed(() => portfolio.value.heroImageName);
 
 .hero p {
   margin-bottom: 24px;
-  text-align: justify;
   font-weight: 500;
   max-width: 679px;
+  line-height: 1.5;
 }
 
 @media (min-width: 768px) {
@@ -72,7 +73,7 @@ const heroImageName = computed(() => portfolio.value.heroImageName);
 
   .hero p {
     font-size: 24px;
-    line-height: 28px;
+    line-height: 36px;
   }
 }
 </style>

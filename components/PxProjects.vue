@@ -1,11 +1,12 @@
 <template>
   <section class="projects">
+    <h2 class="subtitle">Proyectos</h2>
     <p>
       Durante mi carrera como Frontend, he tenido el privilegio de trabajar en
       diferentes proyectos
     </p>
     <span>Aquí hay algunos que me gustaría compartir</span>
-    <img class="arrow-svg" src="/svg/arrow.svg" alt="Flecha hacia abajo" >
+    <img class="arrow-svg" src="/svg/arrow.svg" alt="Flecha hacia abajo" />
     <px-project
       v-for="project in projects"
       :key="project.id"
