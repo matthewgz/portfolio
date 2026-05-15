@@ -4,6 +4,19 @@ import { defineNuxtConfig } from "nuxt/config";
 export default defineNuxtConfig({
     compatibilityDate: '2024-11-01',
     devtools: { enabled: true },
+    vite: {
+        build: {
+            rollupOptions: {
+                onwarn(warning, defaultHandler) {
+                    if (warning.code === 'SOURCEMAP_BROKEN' && warning.plugin === 'nuxt:module-preload-polyfill') {
+                        return;
+                    }
+
+                    defaultHandler(warning);
+                },
+            },
+        },
+    },
     app: {
         head: {
             title: 'Matthew Rosell Felix',
