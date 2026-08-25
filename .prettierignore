@@ -1,0 +1,11 @@
+# Salida de build de Nuxt
+.nuxt
+.output
+dist
+
+# Dependencias y artefactos
+node_modules
+.yarn
+
+# Lockfile: lo genera yarn, no se formatea
+yarn.lock

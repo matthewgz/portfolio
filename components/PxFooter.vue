@@ -9,7 +9,7 @@
 </template>
 
 <script setup>
-import PxSocialMedia from "./PxSocialMedia.vue";
+import PxSocialMedia from './PxSocialMedia.vue';
 const year = computed(() => new Date().getFullYear());
 </script>
 

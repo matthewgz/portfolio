@@ -1,0 +1,12 @@
+{
+  // Nuxt genera los tsconfig reales en .nuxt/ al ejecutar `nuxt prepare`.
+  // Este fichero solo los referencia, que es lo que espera `nuxt typecheck`.
+  // https://nuxt.com/docs/guide/concepts/typescript
+  "files": [],
+  "references": [
+    { "path": "./.nuxt/tsconfig.app.json" },
+    { "path": "./.nuxt/tsconfig.server.json" },
+    { "path": "./.nuxt/tsconfig.shared.json" },
+    { "path": "./.nuxt/tsconfig.node.json" }
+  ]
+}

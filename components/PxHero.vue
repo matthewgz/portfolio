@@ -18,7 +18,7 @@
 </template>
 
 <script setup>
-import PxSocialMedia from "./PxSocialMedia.vue";
+import PxSocialMedia from './PxSocialMedia.vue';
 
 const portfolio = usePortfolio();
 const title = computed(() => portfolio.value.title);
