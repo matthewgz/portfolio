@@ -34,11 +34,11 @@
 defineProps({
   name: {
     type: String,
-    default: "",
+    default: '',
   },
   description: {
     type: String,
-    default: "",
+    default: '',
   },
   labels: {
     type: Array,
@@ -46,15 +46,15 @@ defineProps({
   },
   image: {
     type: String,
-    default: "",
+    default: '',
   },
   url: {
     type: String,
-    default: "",
+    default: '',
   },
   github: {
     type: String,
-    default: "",
+    default: '',
   },
 });
 </script>

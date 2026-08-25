@@ -21,7 +21,7 @@
 </template>
 
 <script setup>
-import PxProject from "./PxProject.vue";
+import PxProject from './PxProject.vue';
 
 const portfolio = usePortfolio();
 const projects = computed(() => portfolio.value.projects);

@@ -8,7 +8,7 @@
 </template>
 
 <script setup>
-import PxCurriculum from "./PxCurriculum.vue";
+import PxCurriculum from './PxCurriculum.vue';
 </script>
 
 <style scoped>

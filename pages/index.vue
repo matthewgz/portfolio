@@ -6,8 +6,8 @@
 </template>
 
 <script setup>
-import PxHero from "@/components/PxHero.vue";
-import PxProjects from "@/components/PxProjects.vue";
+import PxHero from '@/components/PxHero.vue';
+import PxProjects from '@/components/PxProjects.vue';
 </script>
 
 <style scoped>

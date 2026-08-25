@@ -38,6 +38,16 @@ build/Release
 node_modules/
 jspm_packages/
 
+# Yarn: solo se versiona el release, que es lo que necesita corepack.
+# El resto (cache, install-state) se regenera en cada install.
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
 # TypeScript v1 declaration files
 typings/
 
